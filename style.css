@@ -1,0 +1,49 @@
+nav {
+    background: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid darkgrey;
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#numbers {
+    display: none;
+}
+
+#menu {
+    display: none;
+    border-left: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu-items {
+    margin-top: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+li:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+#bars {
+    height: 200%;
+    width: 30px;
+}
+
+#show {
+    display: block;
+}
